@@ -2,8 +2,8 @@
 
 //luetaan tiedosto synkronisesti
 // synonyymi 'blokkaava' ~ synkroninen
-// const file = fs.readFileSync('./vitsikirja.txt','utf-8')
-// console.log(file)
+const file = fs.readFileSync('./vitsikirja.txt','utf-8')
+console.log(file)
 
 //asynkroninen tapa:
 // const file2 = fs.readFile('./vitsikirja.txt','utf-8', (error, success) =>{
@@ -11,7 +11,7 @@
 //     console.log(error)
 //     return
 // }
-// // tähän määritys, mitä tapahtuu, jos tiedoston luku onnistuis
+// tähän määritys, mitä tapahtuu, jos tiedoston luku onnistuisi
 // console.log("luku onnistui:",success)
 // })
 

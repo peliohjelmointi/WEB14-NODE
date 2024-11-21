@@ -9,6 +9,7 @@ class Person {
 }
 
 const JP = new Person("John-Peter",30)
+JP.PrintPersonInfo()
 
 module.exports = Person
 
