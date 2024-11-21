@@ -1,0 +1,16 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "KS",
+  "license": "",
+  "description": "node-harjoitus",
+  "dependencies": {
+    "express": "^4.21.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.7"
+  }
+}

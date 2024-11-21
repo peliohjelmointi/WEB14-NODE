@@ -20,9 +20,10 @@ const http = require('http') //serverin luontiin
 const fs = require('fs') // tiedoston lukuun
 const path = require('path') // tiedoston noutamiseen kansiosta
 
-const filename = path.join(__dirname,'html','indexxxxx.html') //index.html löytyy
+const filename = path.join(__dirname,'html','index.html') //index.html löytyy
 
 const server = http.createServer((req,res)=>{
+  console.log(`Incoming request for: ${req.url}`); 
   fs.readFile(filename,(err,data)=>{
     if(err){
       console.log(err)

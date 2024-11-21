@@ -1,0 +1,14 @@
+- projektikansion alustus npm:n käyttöön:
+npm init
+
+- pakettien (moduulien) installointi npm:n avulla
+npm i <paketin_nimi>
+esim.
+npm i express
+> lisää package.json -tiedostoon dependencies-kohtaan express -version
+
+asennetaan nodemon (restart server on script save)
+npm i nodemon
+
+lodash-niminen moduuli on loistava arrayn, objektien, stringien kanssa
+npm i lodash
